@@ -24,7 +24,7 @@ public class SetAllArrayElements {
      */
     public void set(int[] arr, int n){
         for (int i = 0; i < arr.length; i++) {
-            arr[i] =  n;
+            arr[i] =  n; // change the value of every index of arr 'arr [i]' to the parameter of 'n'
         }
     }
 }
