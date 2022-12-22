@@ -27,11 +27,11 @@ public class ReturnArrayContents {
      * @param nums the array to be manipulated.
      * @return a string representation of all values of nums, with the values separated by spaces.
      */
-    String str;
+    // String str;
     public String arrayToString(int[] nums){
-        // String str; 
+      String str = " ";
         for(int i = 0; i < nums.length; i++){
-          str = str+=nums[i];
+        str += nums[i]+ " ";
         }
         return str;
     }
