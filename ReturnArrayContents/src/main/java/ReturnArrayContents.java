@@ -32,6 +32,7 @@ public class ReturnArrayContents {
       String str = " ";
         for(int i = 0; i < nums.length; i++){
         str += nums[i]+ " ";
+        System.out.println(str);
         }
         return str;
     }
