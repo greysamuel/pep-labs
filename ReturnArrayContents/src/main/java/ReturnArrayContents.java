@@ -35,5 +35,15 @@ public class ReturnArrayContents {
         System.out.println(str);
         }
         return str;
+        /*
+         * Below is an alternative way to solve the problem
+         */
+      // StringBuilder strBuilder = new StringBuilder();
+      // for(int i = 0; i < nums.length; i++){
+      //   strBuilder.append(nums[i]);
+      //   strBuilder.append(" ");
+      // }
+      // String str = strBuilder.toString();
+      //   return str;
     }
 }
