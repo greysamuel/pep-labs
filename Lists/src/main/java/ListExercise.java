@@ -70,8 +70,8 @@ public class ListExercise {
      * @return the int at the location in 'list' represented by 'index'.
      */
     public int get(List<Integer> list, int index){
-        
-        return list.get(0);
+
+        return list.get(index);
     }
 
     /**
@@ -85,7 +85,7 @@ public class ListExercise {
      */
     public void removeFromList(List<Integer> list, int position){
         
-        list.clear();
+        list.remove(position);
     }
 
     /**
