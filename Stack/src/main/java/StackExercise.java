@@ -38,7 +38,7 @@ public class StackExercise {
      * @param item a String to be added to the deque.
      */
     public void addToTopOfStack(Deque<String> stack, String item){
-        stack.add(item);
+        stack.addFirst(item); //add() method will result in fail because it adds to the end of the deque, not front (top)
     }
 
     /**
@@ -56,6 +56,6 @@ public class StackExercise {
      * @return the value peeked from the top of the deque.
      */
     public String getTopOfStackWithoutRemoving(Deque<String> stack){
-        return stack.peek();
+        return stack.element();
     }
 }
