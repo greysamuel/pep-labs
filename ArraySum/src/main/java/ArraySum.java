@@ -9,7 +9,7 @@ public class ArraySum {
     public int sum(int[] arr){
         int sumNumbers = 0;
         for (int i = 0; i < arr.length; i++) {
-            sumNumbers += arr[i];
+            sumNumbers += arr[i]; // equivalent to sumNumbers = sumNumbers + arr[i];
         }
         return sumNumbers;
     }
