@@ -24,7 +24,7 @@ public class BankService {
      */
     public void deposit(double amount){
         if (amount >= 0){
-            balance += amount;
+            balance += amount; // balance = balance + amount;
         }
         
     }
