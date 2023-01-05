@@ -1,0 +1,2 @@
+INSERT INTO song (title, artist) 
+VALUES ('Let it be', 'Hotel California', 'Kashmir', 'Beatles', 'Eagles', 'Led Zeppelin');
