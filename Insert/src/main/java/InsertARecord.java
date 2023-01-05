@@ -31,7 +31,7 @@ public class InsertARecord {
      *          ---------------------------------------------
      *          |'Let it be'        |'Beatles'              |
      *          |'Hotel California' |'Eagles'               |
-     *          |'Kashmir'          |'Led Zeppelin'         |
+     *          |'Kashmir'          |'Led Zeppelin'         |re
      *
      * Note: when inserting strings, you wrap the string in a single quote. 'like this'
      * */
