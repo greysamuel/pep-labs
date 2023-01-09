@@ -17,6 +17,7 @@ public class DoesNotContain {
             if (arr[i] != target){
                 return true;
             }
+        }
         return false;
     }
 }
