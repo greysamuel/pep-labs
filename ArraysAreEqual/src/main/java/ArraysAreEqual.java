@@ -16,7 +16,7 @@ public class ArraysAreEqual {
      * @return true if the values of a are equal to the values of b.
      */
     public boolean equal(int[] a, int[] b){
-        if (Arrays.equals(a,b)){
+        if (Arrays.equals(a,b)){ //must import java.util.Arrays in order to use method
             return true;
         }
         return false;
