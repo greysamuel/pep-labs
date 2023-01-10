@@ -21,7 +21,7 @@ public class MaxMinusMin {
                 } else if (i < min){
                     min = i;
                 }
-            }return (max - min)+ 1;
+            }return (max - min);
         }
         // return (max - min)+ 1;
     }
