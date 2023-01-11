@@ -1,1 +1,1 @@
-SELECT artist, COUNT(song) GROUP BY artist ORDER BY COUNT(song);
+SELECT artist, COUNT(song) FROM song GROUP BY artist ORDER BY COUNT(song);
