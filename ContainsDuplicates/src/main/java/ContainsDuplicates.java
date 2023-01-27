@@ -10,9 +10,12 @@ public class ContainsDuplicates {
      */
     public boolean containsDuplicate(int[] nums){
        Set<Integer> set = new HashSet<Integer>();
-       for(Integer i:nums){
+       for(Integer i: nums){
         if(set.contains(i)){
             return true;
+        }
+        if(i != null){
+            set.add(i);
         }
        }
         return false;
