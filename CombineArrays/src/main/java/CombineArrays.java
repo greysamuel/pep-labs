@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class CombineArrays {
     /**
      * Combine two arrays into a single array and return it.
