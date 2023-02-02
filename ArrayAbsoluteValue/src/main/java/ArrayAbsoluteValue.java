@@ -9,6 +9,13 @@ public class ArrayAbsoluteValue {
      * @return the absolute value array of nums.
      */
     public int[] getArrayAbs(int[] nums){
+        for(int i = 0; i < nums.length; i++){
+            for(int j = i + 1; j < nums.length;i++){
+                if ( Math.abs(nums[i]) == Math.abs(nums[j])){
+                    return nums;
+                }
+            }
+        }
         return null;
     }
 }
