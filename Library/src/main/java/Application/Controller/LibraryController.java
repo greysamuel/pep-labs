@@ -67,7 +67,7 @@ public class LibraryController {
         app.post("/books", this::postBookHandler);
         app.get("/authors", this::getAllAuthorsHandler);
         app.post("/authors", this::postAuthorHandler);
-        app.get("/ F", this::getAvailableBooksHandler);
+        app.get("/books", this::getAvailableBooksHandler);
         app.start(8080);
     }
 
