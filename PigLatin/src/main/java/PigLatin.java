@@ -19,7 +19,7 @@ public class PigLatin {
     public String returnPigLatin(String in){
         String latin1 = in.substring(1, in.length());
         String latin2 = in.substring(0, 1);
-        System.out.println(latin2);
+        System.out.println(latin1+latin2+"ay");
         return latin1+latin2+"ay";
     }
 }
