@@ -18,10 +18,10 @@ public class Isogram {
         Set<Character> set = new HashSet<>();
         for(int i=0; i<str.length(); i++){
             char ch = str.charAt(i);
-            if(set.add(ch)){
-                return true;
+            if(!set.add(ch)){
+                return false;
             }
         }
-        return false;
+        return true;
     }
 }
