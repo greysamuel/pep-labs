@@ -16,14 +16,14 @@ public class CharComparison {
   public int compare(char[] a, char[] b) {
     int i = 0;
 
-    for (; i < a.length && i < b.length;) {
+    for (; i < a.length && i < b.length;i++) {
       if (a[i] < b[i]) {
         return -1;
       } else if (a[i] > b[i]) {
         return 1;
       } else if (a[i] == b[i]) {
-        return 0;
-      }rev
+        // return 0;// dot is NOT the same as dog logic error
+      }
     }
     return 0;
   }
