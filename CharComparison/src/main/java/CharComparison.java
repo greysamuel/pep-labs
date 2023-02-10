@@ -12,15 +12,23 @@ public class CharComparison {
      */
     public int compare(char[] a, char[] b){
         int i = 0;
-    int outcome = 0;
-    for(i = 0; i <b.length;){
+    
+    for(;i <a.length && i <b.length;){
       if(a[i] < b[i]){
-        return outcome = -1;
+        return  -1;
       }else if(a[i] > b[i]){
-        return outcome = 1;
+        return  1;
       }
-    //   return outcome;
     }
-        return outcome;
+      if(i == a.length && i == b.length){
+        return 0;
+      }else if(i == a.length){
+        return -1;
+      }else{
+        return 1;
+      }
+
+    
+        
     }
 }
